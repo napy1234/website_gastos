@@ -2,7 +2,7 @@ echo "# website_gastos" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git branch -m main MAIN
+git branch -m MAIN
 git fetch origin
-git branch -u origin/MAIN MAIN
+git branch -u origin/MAIN 
 git remote set-head origin -a
